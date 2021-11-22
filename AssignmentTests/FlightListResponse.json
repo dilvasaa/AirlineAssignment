@@ -1,0 +1,873 @@
+{
+    "flights": [
+        {
+            "flightDetails": {
+                "sourceSystemName": "VISOPS",
+                "sourceSystemLastModifiedDateTimeUtc": "2021-11-22T15:05:45.5710000Z",
+                "schemaVersion": "1.0",
+                "lastEventType": "ETA",
+                "operatingFlightNumber": "404",
+                "scheduledFlightOriginationDateUTC": "2021-11-22Z",
+                "scheduledFlightOriginationDateLocal": "2021-11-22",
+                "flightLegs": [
+                    {
+                        "legNumber": 1,
+                        "scheduledDateTimeUTC": {
+                            "out": "2021-11-22T14:00:00Z",
+                            "in": "2021-11-22T16:52:00Z"
+                        },
+                        "estimatedDateTimeUTC": {
+                            "out": "2021-11-22T14:00:00Z",
+                            "in": "2021-11-22T16:41:00Z",
+                            "delayInformation": null
+                        },
+                        "actualDepartureStation": {
+                            "airportCode": "SEA",
+                            "zuluOffset": -8,
+                            "gate": {
+                                "podium": "N9",
+                                "parkingSpot": "N9",
+                                "carousel": null
+                            },
+                            "countryCode2Letters": "US",
+                            "countryCode3Letters": "USA"
+                        },
+                        "actualArrivalStation": {
+                            "airportCode": "LAX",
+                            "zuluOffset": -8,
+                            "gate": {
+                                "podium": "65A",
+                                "parkingSpot": "65A",
+                                "carousel": null
+                            },
+                            "countryCode2Letters": "US",
+                            "countryCode3Letters": "USA"
+                        },
+                        "actualdatetimeutc": {
+                            "out": "2021-11-22T13:52:00Z",
+                            "in": null,
+                            "on": null,
+                            "off": "2021-11-22T14:22:00Z"
+                        },
+                        "irropsType": null,
+                        "opsReason": null,
+                        "scheduledArrivalStation": {
+                            "airportCode": "LAX"
+                        },
+                        "scheduledDepartureStation": {
+                            "airportCode": "SEA"
+                        },
+                        "codeShares": null,
+                        "aircraft": {
+                            "aircraftRegistration": "N921AK",
+                            "fleetType": "737-M9E",
+                            "fleetSeries": "737-9",
+                            "iataAircraftCode": "7M9",
+                            "oagFleetCode": "7M9",
+                            "manufacturer": "BOEING",
+                            "scheduleSubFleetEquipmentTypeCode": null
+                        },
+                        "iataFlightServiceType": "SCHEDULED",
+                        "isETOPSFlight": false,
+                        "flightRangeCode": null,
+                        "operatingAirlineCode": "AS",
+                        "operatingAirlineName": "Alaska Airlines",
+                        "sourceInternalId": "8901699",
+                        "scheduledDepartureDateStnLocal": "2021-11-22",
+                        "onwardOperatingAirlineCode": null,
+                        "onwardOperatingFlightNumber": null
+                    }
+                ]
+            },
+            "flightLookupKey": "AS_404_SEA_2021-11-22",
+            "updateCount": 0
+        },
+        {
+            "flightDetails": {
+                "sourceSystemName": "VISOPS",
+                "sourceSystemLastModifiedDateTimeUtc": "2021-11-22T09:35:36.9560000Z",
+                "schemaVersion": "1.0",
+                "lastEventType": "ETA",
+                "operatingFlightNumber": "1041",
+                "scheduledFlightOriginationDateUTC": "2021-11-22Z",
+                "scheduledFlightOriginationDateLocal": "2021-11-22",
+                "flightLegs": [
+                    {
+                        "legNumber": 1,
+                        "scheduledDateTimeUTC": {
+                            "out": "2021-11-22T14:40:00Z",
+                            "in": "2021-11-22T17:30:00Z"
+                        },
+                        "estimatedDateTimeUTC": {
+                            "out": "2021-11-22T14:40:00Z",
+                            "in": "2021-11-22T17:27:00Z",
+                            "delayInformation": null
+                        },
+                        "actualDepartureStation": {
+                            "airportCode": "SEA",
+                            "zuluOffset": -8,
+                            "gate": {
+                                "podium": "C10C",
+                                "parkingSpot": "C12",
+                                "carousel": null
+                            },
+                            "countryCode2Letters": "US",
+                            "countryCode3Letters": "USA"
+                        },
+                        "actualArrivalStation": {
+                            "airportCode": "LAX",
+                            "zuluOffset": -8,
+                            "gate": {
+                                "podium": "62",
+                                "parkingSpot": "62",
+                                "carousel": null
+                            },
+                            "countryCode2Letters": "US",
+                            "countryCode3Letters": "USA"
+                        },
+                        "actualdatetimeutc": null,
+                        "irropsType": null,
+                        "opsReason": null,
+                        "scheduledArrivalStation": {
+                            "airportCode": "LAX"
+                        },
+                        "scheduledDepartureStation": {
+                            "airportCode": "SEA"
+                        },
+                        "codeShares": [
+                            {
+                                "marketingFlightNumber": "5087",
+                                "marketingAirlineCode": "LA"
+                            },
+                            {
+                                "marketingFlightNumber": "9362",
+                                "marketingAirlineCode": "LY"
+                            }
+                        ],
+                        "aircraft": {
+                            "aircraftRegistration": "N586AS",
+                            "fleetType": "737-800E",
+                            "fleetSeries": "737-800",
+                            "iataAircraftCode": "73H",
+                            "oagFleetCode": "73H",
+                            "manufacturer": "BOEING",
+                            "scheduleSubFleetEquipmentTypeCode": null
+                        },
+                        "iataFlightServiceType": "SCHEDULED",
+                        "isETOPSFlight": false,
+                        "flightRangeCode": null,
+                        "operatingAirlineCode": "AS",
+                        "operatingAirlineName": "Alaska Airlines",
+                        "sourceInternalId": "8901392",
+                        "scheduledDepartureDateStnLocal": "2021-11-22",
+                        "onwardOperatingAirlineCode": null,
+                        "onwardOperatingFlightNumber": null
+                    }
+                ]
+            },
+            "flightLookupKey": "AS_1041_SEA_2021-11-22",
+            "updateCount": 0
+        },
+        {
+            "flightDetails": {
+                "sourceSystemName": "VISOPS",
+                "sourceSystemLastModifiedDateTimeUtc": "2021-11-22T09:35:44.5500000Z",
+                "schemaVersion": "1.0",
+                "lastEventType": "ETA",
+                "operatingFlightNumber": "304",
+                "scheduledFlightOriginationDateUTC": "2021-11-22Z",
+                "scheduledFlightOriginationDateLocal": "2021-11-22",
+                "flightLegs": [
+                    {
+                        "legNumber": 1,
+                        "scheduledDateTimeUTC": {
+                            "out": "2021-11-22T16:05:00Z",
+                            "in": "2021-11-22T18:55:00Z"
+                        },
+                        "estimatedDateTimeUTC": {
+                            "out": "2021-11-22T16:05:00Z",
+                            "in": "2021-11-22T18:50:00Z",
+                            "delayInformation": null
+                        },
+                        "actualDepartureStation": {
+                            "airportCode": "SEA",
+                            "zuluOffset": -8,
+                            "gate": {
+                                "podium": "N5",
+                                "parkingSpot": "N5",
+                                "carousel": null
+                            },
+                            "countryCode2Letters": "US",
+                            "countryCode3Letters": "USA"
+                        },
+                        "actualArrivalStation": {
+                            "airportCode": "LAX",
+                            "zuluOffset": -8,
+                            "gate": {
+                                "podium": "65A",
+                                "parkingSpot": "65A",
+                                "carousel": null
+                            },
+                            "countryCode2Letters": "US",
+                            "countryCode3Letters": "USA"
+                        },
+                        "actualdatetimeutc": null,
+                        "irropsType": null,
+                        "opsReason": null,
+                        "scheduledArrivalStation": {
+                            "airportCode": "LAX"
+                        },
+                        "scheduledDepartureStation": {
+                            "airportCode": "SEA"
+                        },
+                        "codeShares": [
+                            {
+                                "marketingFlightNumber": "5093",
+                                "marketingAirlineCode": "LA"
+                            },
+                            {
+                                "marketingFlightNumber": "9360",
+                                "marketingAirlineCode": "LY"
+                            },
+                            {
+                                "marketingFlightNumber": "2969",
+                                "marketingAirlineCode": "QR"
+                            },
+                            {
+                                "marketingFlightNumber": "1265",
+                                "marketingAirlineCode": "SQ"
+                            }
+                        ],
+                        "aircraft": {
+                            "aircraftRegistration": "N913AK",
+                            "fleetType": "737-M9E",
+                            "fleetSeries": "737-9",
+                            "iataAircraftCode": "7M9",
+                            "oagFleetCode": "7M9",
+                            "manufacturer": "BOEING",
+                            "scheduleSubFleetEquipmentTypeCode": null
+                        },
+                        "iataFlightServiceType": "SCHEDULED",
+                        "isETOPSFlight": false,
+                        "flightRangeCode": null,
+                        "operatingAirlineCode": "AS",
+                        "operatingAirlineName": "Alaska Airlines",
+                        "sourceInternalId": "8901562",
+                        "scheduledDepartureDateStnLocal": "2021-11-22",
+                        "onwardOperatingAirlineCode": null,
+                        "onwardOperatingFlightNumber": null
+                    }
+                ]
+            },
+            "flightLookupKey": "AS_304_SEA_2021-11-22",
+            "updateCount": 0
+        },
+        {
+            "flightDetails": {
+                "sourceSystemName": "VISOPS",
+                "sourceSystemLastModifiedDateTimeUtc": "2021-11-22T13:03:24.2260000Z",
+                "schemaVersion": "1.0",
+                "lastEventType": "GATEOUT",
+                "operatingFlightNumber": "444",
+                "scheduledFlightOriginationDateUTC": "2021-11-22Z",
+                "scheduledFlightOriginationDateLocal": "2021-11-22",
+                "flightLegs": [
+                    {
+                        "legNumber": 1,
+                        "scheduledDateTimeUTC": {
+                            "out": "2021-11-22T17:30:00Z",
+                            "in": "2021-11-22T20:20:00Z"
+                        },
+                        "estimatedDateTimeUTC": {
+                            "out": "2021-11-22T17:30:00Z",
+                            "in": "2021-11-22T20:15:00Z",
+                            "delayInformation": null
+                        },
+                        "actualDepartureStation": {
+                            "airportCode": "SEA",
+                            "zuluOffset": -8,
+                            "gate": {
+                                "podium": "N6",
+                                "parkingSpot": "N6",
+                                "carousel": null
+                            },
+                            "countryCode2Letters": "US",
+                            "countryCode3Letters": "USA"
+                        },
+                        "actualArrivalStation": {
+                            "airportCode": "LAX",
+                            "zuluOffset": -8,
+                            "gate": {
+                                "podium": "62",
+                                "parkingSpot": "62",
+                                "carousel": null
+                            },
+                            "countryCode2Letters": "US",
+                            "countryCode3Letters": "USA"
+                        },
+                        "actualdatetimeutc": null,
+                        "irropsType": null,
+                        "opsReason": null,
+                        "scheduledArrivalStation": {
+                            "airportCode": "LAX"
+                        },
+                        "scheduledDepartureStation": {
+                            "airportCode": "SEA"
+                        },
+                        "codeShares": [
+                            {
+                                "marketingFlightNumber": "5098",
+                                "marketingAirlineCode": "LA"
+                            },
+                            {
+                                "marketingFlightNumber": "3306",
+                                "marketingAirlineCode": "QR"
+                            }
+                        ],
+                        "aircraft": {
+                            "aircraftRegistration": "N924AK",
+                            "fleetType": "737-M9E",
+                            "fleetSeries": "737-9",
+                            "iataAircraftCode": "7M9",
+                            "oagFleetCode": "7M9",
+                            "manufacturer": "BOEING",
+                            "scheduleSubFleetEquipmentTypeCode": null
+                        },
+                        "iataFlightServiceType": "SCHEDULED",
+                        "isETOPSFlight": false,
+                        "flightRangeCode": null,
+                        "operatingAirlineCode": "AS",
+                        "operatingAirlineName": "Alaska Airlines",
+                        "sourceInternalId": "8901600",
+                        "scheduledDepartureDateStnLocal": "2021-11-22",
+                        "onwardOperatingAirlineCode": null,
+                        "onwardOperatingFlightNumber": null
+                    }
+                ]
+            },
+            "flightLookupKey": "AS_444_SEA_2021-11-22",
+            "updateCount": 0
+        },
+        {
+            "flightDetails": {
+                "sourceSystemName": "VISOPS",
+                "sourceSystemLastModifiedDateTimeUtc": "2021-11-22T09:35:58.6120000Z",
+                "schemaVersion": "1.0",
+                "lastEventType": "ETA",
+                "operatingFlightNumber": "1436",
+                "scheduledFlightOriginationDateUTC": "2021-11-22Z",
+                "scheduledFlightOriginationDateLocal": "2021-11-22",
+                "flightLegs": [
+                    {
+                        "legNumber": 1,
+                        "scheduledDateTimeUTC": {
+                            "out": "2021-11-22T19:25:00Z",
+                            "in": "2021-11-22T22:17:00Z"
+                        },
+                        "estimatedDateTimeUTC": {
+                            "out": "2021-11-22T19:25:00Z",
+                            "in": "2021-11-22T22:10:00Z",
+                            "delayInformation": null
+                        },
+                        "actualDepartureStation": {
+                            "airportCode": "SEA",
+                            "zuluOffset": -8,
+                            "gate": {
+                                "podium": "D5",
+                                "parkingSpot": "D5",
+                                "carousel": null
+                            },
+                            "countryCode2Letters": "US",
+                            "countryCode3Letters": "USA"
+                        },
+                        "actualArrivalStation": {
+                            "airportCode": "LAX",
+                            "zuluOffset": -8,
+                            "gate": {
+                                "podium": "61",
+                                "parkingSpot": "61",
+                                "carousel": null
+                            },
+                            "countryCode2Letters": "US",
+                            "countryCode3Letters": "USA"
+                        },
+                        "actualdatetimeutc": null,
+                        "irropsType": null,
+                        "opsReason": null,
+                        "scheduledArrivalStation": {
+                            "airportCode": "LAX"
+                        },
+                        "scheduledDepartureStation": {
+                            "airportCode": "SEA"
+                        },
+                        "codeShares": [
+                            {
+                                "marketingFlightNumber": "6105",
+                                "marketingAirlineCode": "KE"
+                            },
+                            {
+                                "marketingFlightNumber": "5072",
+                                "marketingAirlineCode": "LA"
+                            }
+                        ],
+                        "aircraft": {
+                            "aircraftRegistration": "N836VA",
+                            "fleetType": "A32B",
+                            "fleetSeries": "A328",
+                            "iataAircraftCode": "320",
+                            "oagFleetCode": "328",
+                            "manufacturer": "AIRBUS",
+                            "scheduleSubFleetEquipmentTypeCode": null
+                        },
+                        "iataFlightServiceType": "SCHEDULED",
+                        "isETOPSFlight": false,
+                        "flightRangeCode": null,
+                        "operatingAirlineCode": "AS",
+                        "operatingAirlineName": "Alaska Airlines",
+                        "sourceInternalId": "8901240",
+                        "scheduledDepartureDateStnLocal": "2021-11-22",
+                        "onwardOperatingAirlineCode": null,
+                        "onwardOperatingFlightNumber": null
+                    }
+                ]
+            },
+            "flightLookupKey": "AS_1436_SEA_2021-11-22",
+            "updateCount": 0
+        },
+        {
+            "flightDetails": {
+                "sourceSystemName": "VISOPS",
+                "sourceSystemLastModifiedDateTimeUtc": "2021-11-22T12:21:31.9660000Z",
+                "schemaVersion": "1.0",
+                "lastEventType": "PAXGATEDEPARTURE",
+                "operatingFlightNumber": "416",
+                "scheduledFlightOriginationDateUTC": "2021-11-22Z",
+                "scheduledFlightOriginationDateLocal": "2021-11-22",
+                "flightLegs": [
+                    {
+                        "legNumber": 1,
+                        "scheduledDateTimeUTC": {
+                            "out": "2021-11-22T21:00:00Z",
+                            "in": "2021-11-22T23:52:00Z"
+                        },
+                        "estimatedDateTimeUTC": {
+                            "out": "2021-11-22T21:00:00Z",
+                            "in": "2021-11-22T23:52:00Z",
+                            "delayInformation": null
+                        },
+                        "actualDepartureStation": {
+                            "airportCode": "SEA",
+                            "zuluOffset": -8,
+                            "gate": {
+                                "podium": "D7",
+                                "parkingSpot": "D7",
+                                "carousel": null
+                            },
+                            "countryCode2Letters": "US",
+                            "countryCode3Letters": "USA"
+                        },
+                        "actualArrivalStation": {
+                            "airportCode": "LAX",
+                            "zuluOffset": -8,
+                            "gate": {
+                                "podium": "64A",
+                                "parkingSpot": "64",
+                                "carousel": null
+                            },
+                            "countryCode2Letters": "US",
+                            "countryCode3Letters": "USA"
+                        },
+                        "actualdatetimeutc": null,
+                        "irropsType": null,
+                        "opsReason": null,
+                        "scheduledArrivalStation": {
+                            "airportCode": "LAX"
+                        },
+                        "scheduledDepartureStation": {
+                            "airportCode": "SEA"
+                        },
+                        "codeShares": [
+                            {
+                                "marketingFlightNumber": "7613",
+                                "marketingAirlineCode": "BA"
+                            },
+                            {
+                                "marketingFlightNumber": "5081",
+                                "marketingAirlineCode": "LA"
+                            }
+                        ],
+                        "aircraft": {
+                            "aircraftRegistration": "N926VA",
+                            "fleetType": "A321",
+                            "fleetSeries": "A321",
+                            "iataAircraftCode": "321",
+                            "oagFleetCode": "321",
+                            "manufacturer": "AIRBUS",
+                            "scheduleSubFleetEquipmentTypeCode": null
+                        },
+                        "iataFlightServiceType": "SCHEDULED",
+                        "isETOPSFlight": false,
+                        "flightRangeCode": null,
+                        "operatingAirlineCode": "AS",
+                        "operatingAirlineName": "Alaska Airlines",
+                        "sourceInternalId": "8901319",
+                        "scheduledDepartureDateStnLocal": "2021-11-22",
+                        "onwardOperatingAirlineCode": null,
+                        "onwardOperatingFlightNumber": null
+                    }
+                ]
+            },
+            "flightLookupKey": "AS_416_SEA_2021-11-22",
+            "updateCount": 0
+        },
+        {
+            "flightDetails": {
+                "sourceSystemName": "VISOPS",
+                "sourceSystemLastModifiedDateTimeUtc": "2021-11-20T16:08:36.3090000Z",
+                "schemaVersion": "1.0",
+                "lastEventType": "PAXGATEARRIVAL",
+                "operatingFlightNumber": "35",
+                "scheduledFlightOriginationDateUTC": "2021-11-22Z",
+                "scheduledFlightOriginationDateLocal": "2021-11-22",
+                "flightLegs": [
+                    {
+                        "legNumber": 1,
+                        "scheduledDateTimeUTC": {
+                            "out": "2021-11-22T22:50:00Z",
+                            "in": "2021-11-23T01:35:00Z"
+                        },
+                        "estimatedDateTimeUTC": {
+                            "out": "2021-11-22T22:50:00Z",
+                            "in": "2021-11-23T01:35:00Z",
+                            "delayInformation": null
+                        },
+                        "actualDepartureStation": {
+                            "airportCode": "SEA",
+                            "zuluOffset": -8,
+                            "gate": {
+                                "podium": "C18",
+                                "parkingSpot": "C18",
+                                "carousel": null
+                            },
+                            "countryCode2Letters": "US",
+                            "countryCode3Letters": "USA"
+                        },
+                        "actualArrivalStation": {
+                            "airportCode": "LAX",
+                            "zuluOffset": -8,
+                            "gate": {
+                                "podium": "69A",
+                                "parkingSpot": "69A",
+                                "carousel": null
+                            },
+                            "countryCode2Letters": "US",
+                            "countryCode3Letters": "USA"
+                        },
+                        "actualdatetimeutc": null,
+                        "irropsType": null,
+                        "opsReason": null,
+                        "scheduledArrivalStation": {
+                            "airportCode": "LAX"
+                        },
+                        "scheduledDepartureStation": {
+                            "airportCode": "SEA"
+                        },
+                        "codeShares": null,
+                        "aircraft": {
+                            "aircraftRegistration": "N474AS",
+                            "fleetType": "737-900E",
+                            "fleetSeries": "737-900",
+                            "iataAircraftCode": "9ER",
+                            "oagFleetCode": "73J",
+                            "manufacturer": "BOEING",
+                            "scheduleSubFleetEquipmentTypeCode": null
+                        },
+                        "iataFlightServiceType": "SCHEDULED",
+                        "isETOPSFlight": false,
+                        "flightRangeCode": null,
+                        "operatingAirlineCode": "AS",
+                        "operatingAirlineName": "Alaska Airlines",
+                        "sourceInternalId": "8901288",
+                        "scheduledDepartureDateStnLocal": "2021-11-22",
+                        "onwardOperatingAirlineCode": null,
+                        "onwardOperatingFlightNumber": null
+                    }
+                ]
+            },
+            "flightLookupKey": "AS_35_SEA_2021-11-22",
+            "updateCount": 0
+        },
+        {
+            "flightDetails": {
+                "sourceSystemName": "VISOPS",
+                "sourceSystemLastModifiedDateTimeUtc": "2021-11-22T10:04:57.4280000Z",
+                "schemaVersion": "1.0",
+                "lastEventType": "PAXGATEARRIVAL",
+                "operatingFlightNumber": "398",
+                "scheduledFlightOriginationDateUTC": "2021-11-23Z",
+                "scheduledFlightOriginationDateLocal": "2021-11-22",
+                "flightLegs": [
+                    {
+                        "legNumber": 1,
+                        "scheduledDateTimeUTC": {
+                            "out": "2021-11-23T00:00:00Z",
+                            "in": "2021-11-23T02:45:00Z"
+                        },
+                        "estimatedDateTimeUTC": {
+                            "out": "2021-11-23T00:00:00Z",
+                            "in": "2021-11-23T02:45:00Z",
+                            "delayInformation": null
+                        },
+                        "actualDepartureStation": {
+                            "airportCode": "SEA",
+                            "zuluOffset": -8,
+                            "gate": {
+                                "podium": "C15",
+                                "parkingSpot": "C15",
+                                "carousel": null
+                            },
+                            "countryCode2Letters": "US",
+                            "countryCode3Letters": "USA"
+                        },
+                        "actualArrivalStation": {
+                            "airportCode": "LAX",
+                            "zuluOffset": -8,
+                            "gate": {
+                                "podium": "62",
+                                "parkingSpot": "62",
+                                "carousel": null
+                            },
+                            "countryCode2Letters": "US",
+                            "countryCode3Letters": "USA"
+                        },
+                        "actualdatetimeutc": null,
+                        "irropsType": null,
+                        "opsReason": null,
+                        "scheduledArrivalStation": {
+                            "airportCode": "LAX"
+                        },
+                        "scheduledDepartureStation": {
+                            "airportCode": "SEA"
+                        },
+                        "codeShares": [
+                            {
+                                "marketingFlightNumber": "7617",
+                                "marketingAirlineCode": "BA"
+                            },
+                            {
+                                "marketingFlightNumber": "6101",
+                                "marketingAirlineCode": "KE"
+                            },
+                            {
+                                "marketingFlightNumber": "3726",
+                                "marketingAirlineCode": "QF"
+                            },
+                            {
+                                "marketingFlightNumber": "3371",
+                                "marketingAirlineCode": "QR"
+                            }
+                        ],
+                        "aircraft": {
+                            "aircraftRegistration": "N913AK",
+                            "fleetType": "737-M9E",
+                            "fleetSeries": "737-9",
+                            "iataAircraftCode": "7M9",
+                            "oagFleetCode": "7M9",
+                            "manufacturer": "BOEING",
+                            "scheduleSubFleetEquipmentTypeCode": null
+                        },
+                        "iataFlightServiceType": "SCHEDULED",
+                        "isETOPSFlight": false,
+                        "flightRangeCode": null,
+                        "operatingAirlineCode": "AS",
+                        "operatingAirlineName": "Alaska Airlines",
+                        "sourceInternalId": "8901564",
+                        "scheduledDepartureDateStnLocal": "2021-11-22",
+                        "onwardOperatingAirlineCode": null,
+                        "onwardOperatingFlightNumber": null
+                    }
+                ]
+            },
+            "flightLookupKey": "AS_398_SEA_2021-11-22",
+            "updateCount": 0
+        },
+        {
+            "flightDetails": {
+                "sourceSystemName": "VISOPS",
+                "sourceSystemLastModifiedDateTimeUtc": "2021-11-22T10:05:52.9130000Z",
+                "schemaVersion": "1.0",
+                "lastEventType": "PAXGATEARRIVAL",
+                "operatingFlightNumber": "1092",
+                "scheduledFlightOriginationDateUTC": "2021-11-23Z",
+                "scheduledFlightOriginationDateLocal": "2021-11-22",
+                "flightLegs": [
+                    {
+                        "legNumber": 1,
+                        "scheduledDateTimeUTC": {
+                            "out": "2021-11-23T01:45:00Z",
+                            "in": "2021-11-23T04:30:00Z"
+                        },
+                        "estimatedDateTimeUTC": {
+                            "out": "2021-11-23T01:45:00Z",
+                            "in": "2021-11-23T04:30:00Z",
+                            "delayInformation": null
+                        },
+                        "actualDepartureStation": {
+                            "airportCode": "SEA",
+                            "zuluOffset": -8,
+                            "gate": {
+                                "podium": "D4",
+                                "parkingSpot": "D4",
+                                "carousel": null
+                            },
+                            "countryCode2Letters": "US",
+                            "countryCode3Letters": "USA"
+                        },
+                        "actualArrivalStation": {
+                            "airportCode": "LAX",
+                            "zuluOffset": -8,
+                            "gate": {
+                                "podium": "65C",
+                                "parkingSpot": "65C",
+                                "carousel": null
+                            },
+                            "countryCode2Letters": "US",
+                            "countryCode3Letters": "USA"
+                        },
+                        "actualdatetimeutc": null,
+                        "irropsType": null,
+                        "opsReason": null,
+                        "scheduledArrivalStation": {
+                            "airportCode": "LAX"
+                        },
+                        "scheduledDepartureStation": {
+                            "airportCode": "SEA"
+                        },
+                        "codeShares": [
+                            {
+                                "marketingFlightNumber": "6025",
+                                "marketingAirlineCode": "KE"
+                            },
+                            {
+                                "marketingFlightNumber": "1267",
+                                "marketingAirlineCode": "SQ"
+                            }
+                        ],
+                        "aircraft": {
+                            "aircraftRegistration": "N843VA",
+                            "fleetType": "A32B",
+                            "fleetSeries": "A328",
+                            "iataAircraftCode": "320",
+                            "oagFleetCode": "328",
+                            "manufacturer": "AIRBUS",
+                            "scheduleSubFleetEquipmentTypeCode": null
+                        },
+                        "iataFlightServiceType": "SCHEDULED",
+                        "isETOPSFlight": false,
+                        "flightRangeCode": null,
+                        "operatingAirlineCode": "AS",
+                        "operatingAirlineName": "Alaska Airlines",
+                        "sourceInternalId": "8901213",
+                        "scheduledDepartureDateStnLocal": "2021-11-22",
+                        "onwardOperatingAirlineCode": null,
+                        "onwardOperatingFlightNumber": null
+                    }
+                ]
+            },
+            "flightLookupKey": "AS_1092_SEA_2021-11-22",
+            "updateCount": 0
+        },
+        {
+            "flightDetails": {
+                "sourceSystemName": "VISOPS",
+                "sourceSystemLastModifiedDateTimeUtc": "2021-11-22T12:01:37.3750000Z",
+                "schemaVersion": "1.0",
+                "lastEventType": "PAXGATEDEPARTURE",
+                "operatingFlightNumber": "1196",
+                "scheduledFlightOriginationDateUTC": "2021-11-23Z",
+                "scheduledFlightOriginationDateLocal": "2021-11-22",
+                "flightLegs": [
+                    {
+                        "legNumber": 1,
+                        "scheduledDateTimeUTC": {
+                            "out": "2021-11-23T03:45:00Z",
+                            "in": "2021-11-23T06:30:00Z"
+                        },
+                        "estimatedDateTimeUTC": {
+                            "out": "2021-11-23T03:45:00Z",
+                            "in": "2021-11-23T06:30:00Z",
+                            "delayInformation": null
+                        },
+                        "actualDepartureStation": {
+                            "airportCode": "SEA",
+                            "zuluOffset": -8,
+                            "gate": {
+                                "podium": "N9",
+                                "parkingSpot": "N9",
+                                "carousel": null
+                            },
+                            "countryCode2Letters": "US",
+                            "countryCode3Letters": "USA"
+                        },
+                        "actualArrivalStation": {
+                            "airportCode": "LAX",
+                            "zuluOffset": -8,
+                            "gate": {
+                                "podium": "68B",
+                                "parkingSpot": "68B",
+                                "carousel": null
+                            },
+                            "countryCode2Letters": "US",
+                            "countryCode3Letters": "USA"
+                        },
+                        "actualdatetimeutc": null,
+                        "irropsType": null,
+                        "opsReason": null,
+                        "scheduledArrivalStation": {
+                            "airportCode": "LAX"
+                        },
+                        "scheduledDepartureStation": {
+                            "airportCode": "SEA"
+                        },
+                        "codeShares": [
+                            {
+                                "marketingFlightNumber": "7615",
+                                "marketingAirlineCode": "BA"
+                            },
+                            {
+                                "marketingFlightNumber": "7625",
+                                "marketingAirlineCode": "FI"
+                            }
+                        ],
+                        "aircraft": {
+                            "aircraftRegistration": "N851VA",
+                            "fleetType": "A32B",
+                            "fleetSeries": "A328",
+                            "iataAircraftCode": "320",
+                            "oagFleetCode": "328",
+                            "manufacturer": "AIRBUS",
+                            "scheduleSubFleetEquipmentTypeCode": null
+                        },
+                        "iataFlightServiceType": "SCHEDULED",
+                        "isETOPSFlight": false,
+                        "flightRangeCode": null,
+                        "operatingAirlineCode": "AS",
+                        "operatingAirlineName": "Alaska Airlines",
+                        "sourceInternalId": "8901283",
+                        "scheduledDepartureDateStnLocal": "2021-11-22",
+                        "onwardOperatingAirlineCode": null,
+                        "onwardOperatingFlightNumber": null
+                    }
+                ]
+            },
+            "flightLookupKey": "AS_1196_SEA_2021-11-22",
+            "updateCount": 0
+        }
+    ],
+    "actionResult": {
+        "code": 200,
+        "messages": [
+            "Success"
+        ]
+    }
+}
